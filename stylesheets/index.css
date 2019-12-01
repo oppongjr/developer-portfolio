@@ -284,7 +284,7 @@ header .navbar__wrapper .navbar_list li a:hover {
   /* line 308, ../sass/index.scss */
   .main .hero .hero__content {
     display: flex;
-    width: 280px;
+    width: 300px;
     margin: 0 auto;
   }
   /* line 313, ../sass/index.scss */
@@ -381,7 +381,7 @@ header .navbar__wrapper .navbar_list li a:hover {
     border-radius: 27px;
     background: #FD2B2A;
     color: #fff;
-    padding: 0 3em;
+    padding: 0 2em;
     transition: all ease-out 200ms;
     font-weight: 600;
     line-height: 45px;
