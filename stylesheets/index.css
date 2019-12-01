@@ -207,29 +207,30 @@ header .navbar__wrapper .navbar_list li a:hover {
   margin: 0 auto;
   font-size: 1.1em;
   border: 1px solid #FD2B2A;
-  padding: 8px;
+  padding: 8px 20px;
   color: white;
   background-color: #FD2B2A;
   border-radius: 30px;
+  text-transform: uppercase;
   text-decoration: none;
 }
-/* line 226, ../sass/index.scss */
+/* line 227, ../sass/index.scss */
 .main .contact #submit-form input[type=submit]:hover {
   color: #FD2B2A;
   background-color: #FFF;
 }
-/* line 232, ../sass/index.scss */
+/* line 233, ../sass/index.scss */
 .main .contact #submit-form .half-width {
   display: inline-block;
   width: 45%;
 }
-/* line 237, ../sass/index.scss */
+/* line 238, ../sass/index.scss */
 .main .contact #submit-form .full-width {
   display: inline-block;
   width: 96%;
 }
 
-/* line 248, ../sass/index.scss */
+/* line 249, ../sass/index.scss */
 .card {
   background-color: white;
   display: inline-block;
@@ -243,34 +244,34 @@ header .navbar__wrapper .navbar_list li a:hover {
   text-align: left;
   overflow: initial;
 }
-/* line 261, ../sass/index.scss */
+/* line 262, ../sass/index.scss */
 .card .card-header {
   text-align: center;
   font-size: 1.25em;
 }
-/* line 267, ../sass/index.scss */
+/* line 268, ../sass/index.scss */
 .card ul li {
   padding-bottom: 1em;
   font-size: 1.1em;
 }
-/* line 273, ../sass/index.scss */
+/* line 274, ../sass/index.scss */
 .card.medium {
   height: 290px;
   width: 290px;
   margin: 0px 1.2em;
 }
-/* line 279, ../sass/index.scss */
+/* line 280, ../sass/index.scss */
 .card.very-large {
   height: 300px;
   width: 800px;
 }
-/* line 284, ../sass/index.scss */
+/* line 285, ../sass/index.scss */
 .card.square {
   height: 300px;
   width: 300px;
 }
 
-/* line 292, ../sass/index.scss */
+/* line 293, ../sass/index.scss */
 .section-header {
   text-align: center;
   font-size: 1.5em;
