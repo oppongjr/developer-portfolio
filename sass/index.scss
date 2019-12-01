@@ -203,8 +203,34 @@ header {
                 font-size: 1.1em;
                 list-style: none;
 
+                
+                &:before {
+                    position: relative;
+                    font-family: "FontAwesome";
+                    font-size: 18px;
+                    color: #FD2B2A;
+                    margin: 0 12px 0 0;
+                }
+
+                &.first:before {
+                    content: "\f041";
+                    margin: 0 20px 0 0;
+                }
+                &.second:before {
+                    content: "\f0e0";
+                }
+                &.third:before {
+                    content: "\f095";
+                }
+
+                span{
+                    margin-left: 20px;
+                }
+
                 i{
-                    padding: 10px;
+                    // padding: 10px;
+                    color: #FD2B2A;
+                    font-size: 0.8em;
                 }
             }
         }
@@ -258,7 +284,10 @@ header {
 
 }
 
-footer {}
+footer {
+    //footer here
+    display: none;
+}
 
 .card {
     background-color: white;
@@ -379,7 +408,7 @@ footer {}
 
             .hero__content {
                 display: flex;
-                width: 280px;
+                width: 300px;
                 margin: 0 auto;
 
                 .__logo {
@@ -517,6 +546,7 @@ footer {}
 
     .card {
 
+        padding: 10px 5px;
         .card-header {
             text-align: center;
             font-size: 1.25em;
