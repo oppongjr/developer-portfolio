@@ -353,9 +353,83 @@ header .navbar__wrapper .navbar_list li a:hover {
     font-size: 1.2em;
     font-weight: 600;
   }
-}
-/* Smartphones (portrait and landscape) ----------- */
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  /* Styles */
+  /* line 385, ../sass/index.scss */
+  .main .contact .row {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  /* line 394, ../sass/index.scss */
+  .main .contact #submit-form .row {
+    width: 90%;
+  }
+  /* line 398, ../sass/index.scss */
+  .main .contact #submit-form input[type=text] {
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #adadad;
+    border-radius: 0px;
+    padding: 15px;
+    height: auto;
+    margin-bottom: 30px;
+    background-color: #f8f8f8;
+  }
+  /* line 409, ../sass/index.scss */
+  .main .contact #submit-form input[type=submit] {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.1em;
+    border: 1px solid #FD2B2A;
+    padding: 8px 20px;
+    color: white;
+    background-color: #FD2B2A;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  /* line 421, ../sass/index.scss */
+  .main .contact #submit-form input[type=submit]:hover {
+    color: #FD2B2A;
+    background-color: #FFF;
+  }
+  /* line 427, ../sass/index.scss */
+  .main .contact #submit-form .half-width {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  /* line 433, ../sass/index.scss */
+  .main .contact #submit-form .full-width {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+
+  /* line 446, ../sass/index.scss */
+  .card .card-header {
+    text-align: center;
+    font-size: 1.25em;
+  }
+  /* line 452, ../sass/index.scss */
+  .card ul li {
+    padding-bottom: 1em;
+    font-size: 1.1em;
+  }
+  /* line 458, ../sass/index.scss */
+  .card.medium {
+    height: 250px;
+    width: 250px;
+    margin: 20px 1.2em;
+  }
+  /* line 464, ../sass/index.scss */
+  .card.very-large {
+    width: 250px;
+    height: 100%;
+    margin: 0px 0px 25px 0px;
+  }
+  /* line 470, ../sass/index.scss */
+  .card.square {
+    width: 250px;
+  }
 }
