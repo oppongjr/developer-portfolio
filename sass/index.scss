@@ -417,6 +417,8 @@ footer {}
                     line-height: 45px;
                     box-sizing: border-box;
                     display: block;
+                    -webkit-appearance: button;
+                    cursor: pointer;
                     text-transform: uppercase;
 
                     &:hover {
