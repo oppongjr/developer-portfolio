@@ -197,13 +197,13 @@ header {
             justify-content: space-between;
         }
 
-        ul{
+        ul {
             li {
                 padding-bottom: 1.3git em;
                 font-size: 1.1em;
                 list-style: none;
 
-                
+
                 &:before {
                     position: relative;
                     font-family: "FontAwesome";
@@ -216,18 +216,20 @@ header {
                     content: "\f041";
                     margin: 0 20px 0 0;
                 }
+
                 &.second:before {
                     content: "\f0e0";
                 }
+
                 &.third:before {
                     content: "\f095";
                 }
 
-                span{
+                span {
                     margin-left: 20px;
                 }
 
-                i{
+                i {
                     // padding: 10px;
                     color: #FD2B2A;
                     font-size: 0.8em;
@@ -285,8 +287,8 @@ header {
 }
 
 footer {
-    //footer here
-    display: none;
+    display: block;
+    text-align: center;
 }
 
 .card {
@@ -307,7 +309,7 @@ footer {
         font-size: 1.25em;
     }
 
-    ul.stack__collection{
+    ul.stack__collection {
         li {
             padding-bottom: 1em;
             font-size: 1.1em;
@@ -356,44 +358,44 @@ footer {
 
     header {
         .navbar__inner {
-    
+
             display: block;
             margin: 0 auto;
             text-align: center;
-    
+
             .navbar__logo {
-    
+
                 display: inline-block;
                 padding: 0px 25px;
-    
+
                 .__logo {
                     width: 60px;
                 }
             }
         }
-    
+
         .navbar__wrapper {
-    
+
             display: block;
             width: 95%;
             text-align: center;
-    
+
             .navbar_list {
-    
+
                 padding: 5px;
                 display: flex;
                 justify-content: space-evenly;
-    
+
                 li {
                     display: inline-block;
                     padding: 0px;
-    
+
                     a {
                         text-decoration: none;
                         padding: 15px 15px;
                         font-size: 1.1em;
                         color: #707070;
-    
+
                         &:hover {
                             border-bottom: 2px solid #FD2B2A;
                         }
@@ -402,6 +404,7 @@ footer {
             }
         }
     }
+
     .main {
 
         .hero {
@@ -544,9 +547,34 @@ footer {
     }
 
 
+    footer {
+        display: block;
+        text-align: center;
+
+        .icons {
+            padding: 0px;
+
+            li {
+                display: inline-block;
+                padding: 0 10px;
+                font-size: 24px;
+                font-weight: 100;
+                text-decoration: none;
+                color: #FD2B2A;
+
+                a {
+                    text-decoration: none;
+                    color: #FD2B2A;
+                }
+            }
+        }
+    }
+
+
     .card {
 
         padding: 10px 5px;
+
         .card-header {
             text-align: center;
             font-size: 1.25em;
