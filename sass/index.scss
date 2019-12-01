@@ -199,7 +199,7 @@ header {
 
         ul {
             li {
-                padding-bottom: 1.3git em;
+                padding-bottom: 1.3em;
                 font-size: 1.1em;
                 list-style: none;
 
@@ -289,6 +289,35 @@ header {
 footer {
     display: block;
     text-align: center;
+    width: 85%;
+    margin: 10px auto;
+
+    p {
+        display: inline-block;
+        width: 55%;
+        text-align: left;
+
+    }
+
+    .icons {
+        display: inline-block;
+        text-align: right;
+        width: 35%;
+
+        li {
+            display: inline-block;
+            padding: 0 5px;
+            font-size: 1em;
+            font-weight: 100;
+            text-decoration: none;
+            color: #FD2B2A;
+
+            a {
+                text-decoration: none;
+                color: #FD2B2A;
+            }
+        }
+    }
 }
 
 .card {
@@ -335,6 +364,7 @@ footer {
     &.very-large {
         height: 300px;
         width: 800px;
+        margin-right: 25px;
     }
 
     &.square {
@@ -551,13 +581,23 @@ footer {
         display: block;
         text-align: center;
 
+        p {
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+
         .icons {
+
+            display: block;
             padding: 0px;
+            width: 100%;
+            text-align: center;
 
             li {
                 display: inline-block;
-                padding: 0 10px;
-                font-size: 24px;
+                padding: 0 5px;
+                font-size: 1em;
                 font-weight: 100;
                 text-decoration: none;
                 color: #FD2B2A;
@@ -597,6 +637,7 @@ footer {
             height: 100%;
             margin: 0px 0px 25px 0px;
             padding-bottom: 2em;
+
         }
 
         &.square {
