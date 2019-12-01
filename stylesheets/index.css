@@ -68,23 +68,24 @@ header .navbar__wrapper .navbar_list li a:hover {
   display: flex;
   width: 650px;
   margin: 0 auto;
+  align-items: center;
 }
-/* line 75, ../sass/index.scss */
+/* line 76, ../sass/index.scss */
 .main .hero .hero__content .__logo {
   height: 235px;
-  border-right: 1px solid #aaa;
 }
-/* line 80, ../sass/index.scss */
+/* line 81, ../sass/index.scss */
 .main .hero .hero__content .hero__text {
-  margin: 0px auto;
-  padding: 20px 0px 20px;
+  margin: 20px auto;
+  padding: 0px 20px;
   text-align: center;
+  border-left: 1px solid #aaa;
 }
-/* line 85, ../sass/index.scss */
+/* line 87, ../sass/index.scss */
 .main .hero .hero__content .hero__text h2 {
   font-size: 1.8em;
 }
-/* line 89, ../sass/index.scss */
+/* line 91, ../sass/index.scss */
 .main .hero .hero__content .hero__text a {
   font-size: 1.1em;
   border: 1px solid #FD2B2A;
@@ -93,21 +94,21 @@ header .navbar__wrapper .navbar_list li a:hover {
   border-radius: 30px;
   text-decoration: none;
 }
-/* line 97, ../sass/index.scss */
+/* line 99, ../sass/index.scss */
 .main .hero .hero__content .hero__text a:hover {
   background-color: #FD2B2A;
   color: #FFF;
 }
-/* line 107, ../sass/index.scss */
+/* line 109, ../sass/index.scss */
 .main .stack {
   text-align: center;
   margin: 100px 0;
 }
-/* line 112, ../sass/index.scss */
+/* line 114, ../sass/index.scss */
 .main .portfolio {
   margin: 100px 0;
 }
-/* line 115, ../sass/index.scss */
+/* line 117, ../sass/index.scss */
 .main .portfolio .row {
   margin: 0 auto;
   width: 80%;
@@ -115,23 +116,23 @@ header .navbar__wrapper .navbar_list li a:hover {
   display: flex;
   justify-content: space-between;
 }
-/* line 123, ../sass/index.scss */
+/* line 125, ../sass/index.scss */
 .main .portfolio .pf-card {
   display: inline-block;
   margin: 1em 1em;
   color: white;
 }
-/* line 128, ../sass/index.scss */
+/* line 130, ../sass/index.scss */
 .main .portfolio .pf-card .card-header {
   margin-top: 4em;
   font-size: 1.2em;
   font-weight: 600;
 }
-/* line 134, ../sass/index.scss */
+/* line 136, ../sass/index.scss */
 .main .portfolio .pf-card .description {
   padding: 0em 2em;
 }
-/* line 138, ../sass/index.scss */
+/* line 140, ../sass/index.scss */
 .main .portfolio .pf-card.large {
   width: 650px;
   height: 250px;
@@ -139,17 +140,17 @@ header .navbar__wrapper .navbar_list li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 145, ../sass/index.scss */
+/* line 147, ../sass/index.scss */
 .main .portfolio .pf-card.large.first {
   background-image: -webkit-gradient(linear, right top, left top, from(rgba(218, 33, 33, 0)), to(rgba(218, 33, 33, 0))), url("../images/bg.jpg");
   background-image: linear-gradient(270deg, rgba(218, 33, 33, 0.7), rgba(218, 33, 33, 0.8)), url("../images/bg.jpg");
 }
-/* line 150, ../sass/index.scss */
+/* line 152, ../sass/index.scss */
 .main .portfolio .pf-card.large.second {
   background-image: -webkit-gradient(linear, right top, left top, from(rgba(12, 114, 36, 0)), to(rgba(12, 114, 36, 0))), url("../images/bg.jpg");
   background-image: linear-gradient(270deg, rgba(12, 114, 36, 0.7), rgba(12, 114, 36, 0.8)), url("../images/bg.jpg");
 }
-/* line 157, ../sass/index.scss */
+/* line 159, ../sass/index.scss */
 .main .portfolio .pf-card.small {
   width: 450px;
   height: 200px;
@@ -157,28 +158,28 @@ header .navbar__wrapper .navbar_list li a:hover {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* line 164, ../sass/index.scss */
+/* line 166, ../sass/index.scss */
 .main .portfolio .pf-card.small .card-header {
   margin-top: 2em;
   font-size: 1.2em;
   font-weight: 600;
 }
-/* line 170, ../sass/index.scss */
+/* line 172, ../sass/index.scss */
 .main .portfolio .pf-card.small.first {
   background-image: -webkit-gradient(linear, right top, left top, from(rgba(78, 44, 214, 0)), to(rgba(78, 44, 214, 0))), url("../images/bg.jpg");
   background-image: linear-gradient(270deg, rgba(78, 44, 214, 0.7), rgba(78, 44, 214, 0.8)), url("../images/bg.jpg");
 }
-/* line 175, ../sass/index.scss */
+/* line 177, ../sass/index.scss */
 .main .portfolio .pf-card.small.second {
   background-image: -webkit-gradient(linear, right top, left top, from(rgba(171, 62, 198, 0)), to(rgba(171, 62, 198, 0))), url("../images/bg.jpg");
   background-image: linear-gradient(270deg, rgba(171, 62, 198, 0.7), rgba(171, 62, 198, 0.8)), url("../images/bg.jpg");
 }
-/* line 180, ../sass/index.scss */
+/* line 182, ../sass/index.scss */
 .main .portfolio .pf-card.small.third {
   background-image: -webkit-gradient(linear, right top, left top, from(rgba(28, 177, 199, 0)), to(rgba(28, 177, 199, 0))), url("../images/bg.jpg");
   background-image: linear-gradient(270deg, rgba(28, 177, 199, 0.7), rgba(28, 177, 199, 0.8)), url("../images/bg.jpg");
 }
-/* line 190, ../sass/index.scss */
+/* line 192, ../sass/index.scss */
 .main .contact .row {
   margin: 0 auto;
   width: 80%;
@@ -186,11 +187,21 @@ header .navbar__wrapper .navbar_list li a:hover {
   display: flex;
   justify-content: space-between;
 }
-/* line 200, ../sass/index.scss */
+/* line 201, ../sass/index.scss */
+.main .contact ul li {
+  padding-bottom: 1.3git em;
+  font-size: 1.1em;
+  list-style: none;
+}
+/* line 206, ../sass/index.scss */
+.main .contact ul li i {
+  padding: 10px;
+}
+/* line 214, ../sass/index.scss */
 .main .contact #submit-form .row {
   width: 90%;
 }
-/* line 204, ../sass/index.scss */
+/* line 218, ../sass/index.scss */
 .main .contact #submit-form input[type=text] {
   border: none;
   box-shadow: none;
@@ -201,7 +212,7 @@ header .navbar__wrapper .navbar_list li a:hover {
   margin-bottom: 30px;
   background-color: #f8f8f8;
 }
-/* line 215, ../sass/index.scss */
+/* line 229, ../sass/index.scss */
 .main .contact #submit-form input[type=submit] {
   display: block;
   margin: 0 auto;
@@ -214,23 +225,23 @@ header .navbar__wrapper .navbar_list li a:hover {
   text-transform: uppercase;
   text-decoration: none;
 }
-/* line 227, ../sass/index.scss */
+/* line 241, ../sass/index.scss */
 .main .contact #submit-form input[type=submit]:hover {
   color: #FD2B2A;
   background-color: #FFF;
 }
-/* line 233, ../sass/index.scss */
+/* line 247, ../sass/index.scss */
 .main .contact #submit-form .half-width {
   display: inline-block;
   width: 45%;
 }
-/* line 238, ../sass/index.scss */
+/* line 252, ../sass/index.scss */
 .main .contact #submit-form .full-width {
   display: inline-block;
   width: 96%;
 }
 
-/* line 249, ../sass/index.scss */
+/* line 263, ../sass/index.scss */
 .card {
   background-color: white;
   display: inline-block;
@@ -244,34 +255,44 @@ header .navbar__wrapper .navbar_list li a:hover {
   text-align: left;
   overflow: initial;
 }
-/* line 262, ../sass/index.scss */
+/* line 276, ../sass/index.scss */
 .card .card-header {
   text-align: center;
   font-size: 1.25em;
 }
-/* line 268, ../sass/index.scss */
-.card ul li {
+/* line 282, ../sass/index.scss */
+.card ul.stack__collection li {
   padding-bottom: 1em;
   font-size: 1.1em;
+  list-style: none;
 }
-/* line 274, ../sass/index.scss */
+/* line 287, ../sass/index.scss */
+.card ul.stack__collection li:before {
+  position: relative;
+  font-family: "FontAwesome";
+  font-size: 18px;
+  content: "\f192";
+  color: #FD2B2A;
+  margin: 0 12px 0 0;
+}
+/* line 298, ../sass/index.scss */
 .card.medium {
   height: 290px;
   width: 290px;
   margin: 0px 1.2em;
 }
-/* line 280, ../sass/index.scss */
+/* line 304, ../sass/index.scss */
 .card.very-large {
   height: 300px;
   width: 800px;
 }
-/* line 285, ../sass/index.scss */
+/* line 309, ../sass/index.scss */
 .card.square {
   height: 300px;
   width: 300px;
 }
 
-/* line 293, ../sass/index.scss */
+/* line 317, ../sass/index.scss */
 .section-header {
   text-align: center;
   font-size: 1.5em;
@@ -281,57 +302,100 @@ header .navbar__wrapper .navbar_list li a:hover {
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  /* line 308, ../sass/index.scss */
-  .main .hero .hero__content {
-    display: flex;
-    width: 300px;
+  /* line 329, ../sass/index.scss */
+  header .navbar__inner {
+    display: block;
     margin: 0 auto;
-  }
-  /* line 313, ../sass/index.scss */
-  .main .hero .hero__content .__logo {
-    height: 150px;
-    border-right: 1px solid #aaa;
-  }
-  /* line 318, ../sass/index.scss */
-  .main .hero .hero__content .hero__text {
-    margin: 0px auto;
-    padding: 10px 0px 10px;
     text-align: center;
   }
-  /* line 323, ../sass/index.scss */
+  /* line 335, ../sass/index.scss */
+  header .navbar__inner .navbar__logo {
+    display: inline-block;
+    padding: 0px 25px;
+  }
+  /* line 340, ../sass/index.scss */
+  header .navbar__inner .navbar__logo .__logo {
+    width: 60px;
+  }
+  /* line 346, ../sass/index.scss */
+  header .navbar__wrapper {
+    display: block;
+    width: 95%;
+    text-align: center;
+  }
+  /* line 352, ../sass/index.scss */
+  header .navbar__wrapper .navbar_list {
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  /* line 358, ../sass/index.scss */
+  header .navbar__wrapper .navbar_list li {
+    display: inline-block;
+    padding: 0px;
+  }
+  /* line 362, ../sass/index.scss */
+  header .navbar__wrapper .navbar_list li a {
+    text-decoration: none;
+    padding: 15px 15px;
+    font-size: 1.1em;
+    color: #707070;
+  }
+  /* line 368, ../sass/index.scss */
+  header .navbar__wrapper .navbar_list li a:hover {
+    border-bottom: 2px solid #FD2B2A;
+  }
+
+  /* line 380, ../sass/index.scss */
+  .main .hero .hero__content {
+    display: flex;
+    width: 280px;
+    margin: 0 auto;
+  }
+  /* line 385, ../sass/index.scss */
+  .main .hero .hero__content .__logo {
+    height: 150px;
+  }
+  /* line 389, ../sass/index.scss */
+  .main .hero .hero__content .hero__text {
+    margin: 20px auto;
+    padding: 0px 10px;
+    text-align: center;
+  }
+  /* line 394, ../sass/index.scss */
   .main .hero .hero__content .hero__text h2 {
     font-size: 1.0em;
   }
-  /* line 327, ../sass/index.scss */
+  /* line 398, ../sass/index.scss */
   .main .hero .hero__content .hero__text a {
     font-size: 0.9em;
   }
-  /* line 335, ../sass/index.scss */
+  /* line 406, ../sass/index.scss */
   .main .portfolio {
     margin: 100px 0;
   }
-  /* line 338, ../sass/index.scss */
+  /* line 409, ../sass/index.scss */
   .main .portfolio .row {
     width: 100%;
     display: block;
   }
-  /* line 343, ../sass/index.scss */
+  /* line 414, ../sass/index.scss */
   .main .portfolio .pf-card {
     display: inline-block;
     margin: 0.5em 0.5em;
     color: white;
   }
-  /* line 348, ../sass/index.scss */
+  /* line 419, ../sass/index.scss */
   .main .portfolio .pf-card .card-header {
     margin-top: 4em;
     font-size: 1.2em;
     font-weight: 600;
   }
-  /* line 354, ../sass/index.scss */
+  /* line 425, ../sass/index.scss */
   .main .portfolio .pf-card .description {
     padding: 0em 2em;
   }
-  /* line 358, ../sass/index.scss */
+  /* line 429, ../sass/index.scss */
   .main .portfolio .pf-card.large {
     width: 280px;
     height: 280px;
@@ -339,7 +403,7 @@ header .navbar__wrapper .navbar_list li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  /* line 367, ../sass/index.scss */
+  /* line 438, ../sass/index.scss */
   .main .portfolio .pf-card.small {
     width: 280px;
     height: 280px;
@@ -347,24 +411,24 @@ header .navbar__wrapper .navbar_list li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  /* line 374, ../sass/index.scss */
+  /* line 445, ../sass/index.scss */
   .main .portfolio .pf-card.small .card-header {
     margin-top: 2em;
     font-size: 1.2em;
     font-weight: 600;
   }
-  /* line 385, ../sass/index.scss */
+  /* line 456, ../sass/index.scss */
   .main .contact .row {
     margin: 0 auto;
     width: 100%;
     text-align: center;
     display: block;
   }
-  /* line 394, ../sass/index.scss */
+  /* line 465, ../sass/index.scss */
   .main .contact #submit-form .row {
     width: 90%;
   }
-  /* line 398, ../sass/index.scss */
+  /* line 469, ../sass/index.scss */
   .main .contact #submit-form input[type=text] {
     border: none;
     box-shadow: none;
@@ -375,7 +439,7 @@ header .navbar__wrapper .navbar_list li a:hover {
     margin-bottom: 30px;
     background-color: #f8f8f8;
   }
-  /* line 409, ../sass/index.scss */
+  /* line 480, ../sass/index.scss */
   .main .contact #submit-form input[type=submit] {
     height: 42px;
     border-radius: 27px;
@@ -391,47 +455,47 @@ header .navbar__wrapper .navbar_list li a:hover {
     cursor: pointer;
     text-transform: uppercase;
   }
-  /* line 424, ../sass/index.scss */
+  /* line 495, ../sass/index.scss */
   .main .contact #submit-form input[type=submit]:hover {
     color: #FD2B2A;
     background-color: #FFF;
   }
-  /* line 430, ../sass/index.scss */
+  /* line 501, ../sass/index.scss */
   .main .contact #submit-form .half-width {
     display: block;
     width: 80%;
     margin: auto;
   }
-  /* line 436, ../sass/index.scss */
+  /* line 507, ../sass/index.scss */
   .main .contact #submit-form .full-width {
     display: block;
     width: 80%;
     margin: auto;
   }
 
-  /* line 449, ../sass/index.scss */
+  /* line 520, ../sass/index.scss */
   .card .card-header {
     text-align: center;
     font-size: 1.25em;
   }
-  /* line 455, ../sass/index.scss */
+  /* line 526, ../sass/index.scss */
   .card ul li {
     padding-bottom: 1em;
     font-size: 1.1em;
   }
-  /* line 461, ../sass/index.scss */
+  /* line 532, ../sass/index.scss */
   .card.medium {
-    height: 250px;
     width: 250px;
     margin: 20px 1.2em;
   }
-  /* line 467, ../sass/index.scss */
+  /* line 537, ../sass/index.scss */
   .card.very-large {
     width: 250px;
     height: 100%;
     margin: 0px 0px 25px 0px;
+    padding-bottom: 2em;
   }
-  /* line 473, ../sass/index.scss */
+  /* line 544, ../sass/index.scss */
   .card.square {
     width: 250px;
   }
