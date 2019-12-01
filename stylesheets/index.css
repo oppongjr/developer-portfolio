@@ -278,3 +278,84 @@ header .navbar__wrapper .navbar_list li a:hover {
   margin: 50px 0px;
   font-weight: 600;
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  /* line 308, ../sass/index.scss */
+  .main .hero .hero__content {
+    display: flex;
+    width: 280px;
+    margin: 0 auto;
+  }
+  /* line 313, ../sass/index.scss */
+  .main .hero .hero__content .__logo {
+    height: 150px;
+    border-right: 1px solid #aaa;
+  }
+  /* line 318, ../sass/index.scss */
+  .main .hero .hero__content .hero__text {
+    margin: 0px auto;
+    padding: 10px 0px 10px;
+    text-align: center;
+  }
+  /* line 323, ../sass/index.scss */
+  .main .hero .hero__content .hero__text h2 {
+    font-size: 1.0em;
+  }
+  /* line 327, ../sass/index.scss */
+  .main .hero .hero__content .hero__text a {
+    font-size: 0.9em;
+  }
+  /* line 335, ../sass/index.scss */
+  .main .portfolio {
+    margin: 100px 0;
+  }
+  /* line 338, ../sass/index.scss */
+  .main .portfolio .row {
+    width: 100%;
+    display: block;
+  }
+  /* line 343, ../sass/index.scss */
+  .main .portfolio .pf-card {
+    display: inline-block;
+    margin: 0.5em 0.5em;
+    color: white;
+  }
+  /* line 348, ../sass/index.scss */
+  .main .portfolio .pf-card .card-header {
+    margin-top: 4em;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+  /* line 354, ../sass/index.scss */
+  .main .portfolio .pf-card .description {
+    padding: 0em 2em;
+  }
+  /* line 358, ../sass/index.scss */
+  .main .portfolio .pf-card.large {
+    width: 280px;
+    height: 280px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* line 367, ../sass/index.scss */
+  .main .portfolio .pf-card.small {
+    width: 280px;
+    height: 280px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* line 374, ../sass/index.scss */
+  .main .portfolio .pf-card.small .card-header {
+    margin-top: 2em;
+    font-size: 1.2em;
+    font-weight: 600;
+  }
+}
+/* Smartphones (portrait and landscape) ----------- */
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Styles */
+}
