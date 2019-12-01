@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="stylesheets/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar__inner">
+            <a href="index.html" class="navbar__logo">
+                <img class="__logo" src="images/logo.png" />
+            </a>
+        </div>
+        <nav class="navbar__wrapper">
+            <ul class="navbar_list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main">
+        <section class="hero">
+            <div class="card hero__content">
+                <div class="hero__image">
+                    <img class="__logo" src="images/pp.png" />
+                </div>
+                <div class="hero__text">
+                    <h2>Hi!</h2>
+                    <h2>I'm John Doe</h2>
+                    <h2>Mobile and Web App </h2>
+
+                    <a href="#">View Resume</a>
+                </div>
+            </div>
+        </section>
+        <section class="stack">
+            <h3 class="section-header">Stack</h3>
+            <div class="card medium">
+                <h4 class="card-header">Development</h4>
+                <ul>
+                    <li>Kotlin - Android</li>
+                    <li>Flutter - Android</li>
+                    <li>JavaScript - Vue</li>
+                    <li>JavaScript - React</li>
+                    <li>Ruby - Rails</li>
+                </ul>
+            </div>
+            <div class="card medium">
+                <h4 class="card-header">Deployment</h4>
+                <ul>
+                    <li>AWS</li>
+                    <li>Digital Ocean</li>
+                    <li>Heroku</li>
+                    <li>Bitbucket pipelines</li>
+                    <li>GitLab CI</li>
+                </ul>
+            </div>
+        </section>
+        <section class="portfolio">
+            <h3 class="section-header">Portfolio</h3>
+            <div class="row">
+                <div class="pf-card large first">
+                    <h4 class="card-header">Project Title</h4>
+                    <p class="description">Long description here . Additional
+                        information is added here. </p>
+                </div>
+                <div class="pf-card large second">
+                    <h4 class="card-header">Project Title</h4>
+                    <p class="description">Long description here . Additional
+                        information is added here. </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="pf-card small first">
+                    <h4 class="card-header">Project Title</h4>
+                    <p class="description">Long description here . Additional
+                        information is added here.</p>
+                </div>
+                <div class="pf-card small second">
+                    <h4 class="card-header">Project Title</h4>
+                    <p class="description">Long description here . Additional
+                        information is added here.</p>
+                </div>
+                <div class="pf-card small third">
+                    <h4 class="card-header">Project Title</h4>
+                    <p class="description">Long description here . Additional
+                        information is added here.</p>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <h3 class="section-header">Contact</h3>
+
+            <div class="row">
+                <div class="card very-large">
+                    <h4 class="card-header">GET IN TOUCH</h4>
+                    <form id="submit-form" action="#">
+                        <div class="row">
+                            <input type="text" class="half-width" name="" id="" placeholder="Name">
+                            <input type="text" class="half-width" name="" id="" placeholder="Email">
+                        </div>
+                        <div class="row">
+                            <input type="text" class="full-width" name="" id="" placeholder="Message">
+                        </div>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+                <div class="card square">
+                    <h4 class="card-header">CONTACT INFO</h4>
+                    <ul>
+                        <li>Accra, Ghana</li>
+                        <li>info@johndoe.com</li>
+                        <li>+233-000-000-0000</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </section>
+    <footer>
+        <p>© Copyright 2019 | John Doe</p>
+        <div class="icons">
+            TOP
+        </div>
+    </footer>
+</body>
+
+</html>
