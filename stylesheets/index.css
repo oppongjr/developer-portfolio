@@ -377,17 +377,17 @@ header .navbar__wrapper .navbar_list li a:hover {
   }
   /* line 409, ../sass/index.scss */
   .main .contact #submit-form input[type=submit] {
-    display: block;
-    margin: 0 auto;
-    font-size: 1.1em;
-    border: 1px solid #FD2B2A;
-    padding: 8px 20px;
-    color: white;
-    background-color: #FD2B2A;
-    border-radius: 30px;
-    text-transform: uppercase;
-    text-decoration: none;
+    height: 42px;
+    border-radius: 27px;
+    background: #FD2B2A;
+    color: #fff;
+    padding: 0 3em;
+    transition: all ease-out 200ms;
+    font-weight: 600;
+    line-height: 45px;
     box-sizing: border-box;
+    display: block;
+    text-transform: uppercase;
   }
   /* line 422, ../sass/index.scss */
   .main .contact #submit-form input[type=submit]:hover {
