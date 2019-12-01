@@ -128,8 +128,7 @@ header {
             color: white;
 
             .card-header {
-                margin-top: 4em;
-                font-size: 1.2em;
+                font-size: 1.4em;
                 font-weight: 600;
             }
 
@@ -139,10 +138,10 @@ header {
 
             &.large {
                 width: 650px;
-                height: 250px;
                 background-position: 50%;
                 background-repeat: no-repeat;
                 background-size: cover;
+                padding: 50px 0px;
 
                 &.first {
                     background-image: -webkit-gradient(linear, right top, left top, from(rgba(218, 33, 33, .0)), to(rgba(218, 33, 33, .0))), url("../images/bg.jpg");
@@ -158,13 +157,12 @@ header {
 
             &.small {
                 width: 450px;
-                height: 200px;
                 background-position: 50%;
                 background-repeat: no-repeat;
                 background-size: cover;
+                padding: 25px 0px;
 
                 .card-header {
-                    margin-top: 2em;
                     font-size: 1.2em;
                     font-weight: 600;
                 }
@@ -199,7 +197,7 @@ header {
 
         ul {
             li {
-                padding-bottom: 1.3git em;
+                padding-bottom: 1.3em;
                 font-size: 1.1em;
                 list-style: none;
 
@@ -289,6 +287,35 @@ header {
 footer {
     display: block;
     text-align: center;
+    width: 85%;
+    margin: 10px auto;
+
+    p {
+        display: inline-block;
+        width: 55%;
+        text-align: left;
+
+    }
+
+    .icons {
+        display: inline-block;
+        text-align: right;
+        width: 35%;
+
+        li {
+            display: inline-block;
+            padding: 0 5px;
+            font-size: 1em;
+            font-weight: 100;
+            text-decoration: none;
+            color: #FD2B2A;
+
+            a {
+                text-decoration: none;
+                color: #FD2B2A;
+            }
+        }
+    }
 }
 
 .card {
@@ -335,6 +362,7 @@ footer {
     &.very-large {
         height: 300px;
         width: 800px;
+        margin-right: 25px;
     }
 
     &.square {
@@ -449,7 +477,6 @@ footer {
                 color: white;
 
                 .card-header {
-                    margin-top: 4em;
                     font-size: 1.2em;
                     font-weight: 600;
                 }
@@ -460,7 +487,6 @@ footer {
 
                 &.large {
                     width: 280px;
-                    height: 280px;
                     background-position: 50%;
                     background-repeat: no-repeat;
                     background-size: cover;
@@ -469,13 +495,11 @@ footer {
 
                 &.small {
                     width: 280px;
-                    height: 280px;
                     background-position: 50%;
                     background-repeat: no-repeat;
                     background-size: cover;
 
                     .card-header {
-                        margin-top: 2em;
                         font-size: 1.2em;
                         font-weight: 600;
                     }
@@ -551,13 +575,23 @@ footer {
         display: block;
         text-align: center;
 
+        p {
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+
         .icons {
+
+            display: block;
             padding: 0px;
+            width: 100%;
+            text-align: center;
 
             li {
                 display: inline-block;
-                padding: 0 10px;
-                font-size: 24px;
+                padding: 0 5px;
+                font-size: 1em;
                 font-weight: 100;
                 text-decoration: none;
                 color: #FD2B2A;
@@ -597,10 +631,13 @@ footer {
             height: 100%;
             margin: 0px 0px 25px 0px;
             padding-bottom: 2em;
+
         }
 
         &.square {
             width: 250px;
+            height: 100%;
+            padding: 25px 0px;
         }
 
     }
