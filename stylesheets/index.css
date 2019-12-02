@@ -120,7 +120,7 @@ header .navbar__wrapper .navbar_list li a:hover {
 /* line 126, ../sass/index.scss */
 .main .portfolio .pf-card {
   display: inline-block;
-  margin: 1em 1em;
+  margin: 1%;
   color: white;
 }
 /* line 131, ../sass/index.scss */
@@ -443,7 +443,7 @@ footer .icons li a {
   /* line 476, ../sass/index.scss */
   .main .portfolio .pf-card {
     display: inline-block;
-    margin: 0.5em 0.5em;
+    margin: 1%;
     color: white;
   }
   /* line 481, ../sass/index.scss */
