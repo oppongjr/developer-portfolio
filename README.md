@@ -1,10 +1,10 @@
 # Developer Portfolio
 
-Developer Portfolio is an open source portfolio template software developers to use.
+Developer Portfolio is an open source portfolio template for software developers to use.
 
 ## Installation
 
-You can fork this project and customize to personal specification
+You can fork this project and customize to personal specifications.
 
 
 ## Contributing
