@@ -6,6 +6,7 @@ html {
 body {
     margin: 0px;
     padding: 0px;
+    font-family: Segoe UI, Roboto, Helvetica, Helvetica Neue, San Fransisco, Trebuchet MS !important;
     color: #444;
 }
 
@@ -246,7 +247,7 @@ header {
                 box-shadow: none;
                 border-bottom: 1px solid #adadad;
                 border-radius: 0px;
-                padding: 15px;
+                padding: 1%;
                 height: auto;
                 margin-bottom: 30px;
                 background-color: #f8f8f8;
@@ -277,7 +278,7 @@ header {
 
             .full-width {
                 display: inline-block;
-                width: 96%;
+                width: 100%;
             }
         }
     }
@@ -378,6 +379,7 @@ footer {
     font-size: 1.5em;
     margin: 50px 0px;
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 
@@ -405,12 +407,12 @@ footer {
         .navbar__wrapper {
 
             display: block;
-            width: 95%;
+            width: 100%;
             text-align: center;
 
             .navbar_list {
 
-                padding: 5px;
+                padding: 5px 0px;
                 display: flex;
                 justify-content: space-evenly;
 
@@ -642,5 +644,15 @@ footer {
 
     }
 
+
+}
+
+@media only screen and (min-device-width : 720px) and (max-device-width : 1024px) {
+
+    .card {
+        &.very-large {
+            width: 60%;
+        }
+    }
 
 }
