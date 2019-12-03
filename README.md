@@ -11,7 +11,7 @@ Screenshot.
 
 ## Website
 
-You can view the website [here](https://wadederby.com/  "Portfolio Website")
+You can view the website [here](https://developer-portfolio.netlify.com/  "Portfolio Website")
 
 
 
@@ -22,7 +22,7 @@ You can view the website [here](https://wadederby.com/  "Portfolio Website")
 
 ## Contributors
 
-[Wade Derby](https://developer-portfolio.netlify.com/ "Wade Derby") - Author
+[Wade Derby](https://wadederby.com/  "Wade Derby") - Author
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
